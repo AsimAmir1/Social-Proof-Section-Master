@@ -1,0 +1,141 @@
+*{
+padding:0;
+margin:0;
+box-sizing:border-box;
+}
+
+@font-face{
+font-family:'league';
+src:url(LeagueSpartan-Bold.ttf);
+font-style:normal;
+font-weight:700;
+}
+
+@font-face{
+font-family:'league';
+src:url(LeagueSpartan-Meduim.ttf);
+font-style:normal;
+font-weight:500;
+}
+
+@font-face{
+font-family:'league';
+src:url(LeagueSpartan-Regular.ttf);
+font-style:normal;
+font-weight:400;
+}
+
+body{
+background:#fff;
+padding:50px 0;
+}
+
+.header{
+padding:0 15px 30px 15px;
+text-align:center;
+font-family:league;
+}
+
+.header h1{
+color:hsl(300, 43%, 22%);
+font-weight:700;
+font-size:38px;
+padding:0 30px;
+}
+
+.header p{
+padding:30px 0 10px 0;
+font-size:15px;
+line-height:22px;
+color:hsl(303, 10%, 53%);
+font-weight:500;
+}
+
+.rate{
+padding:0 15px;
+font-family:league;
+font-weight:700;
+}
+
+.rate-1{
+padding:15px 0;
+text-align:center;
+background:hsl(300, 24%, 96%);
+border-radius:4px;
+margin-bottom:10px;
+}
+
+.rate-1 h4{
+padding-top:10px;
+color:hsl(300, 43%, 22%);
+font-size:15px;
+}
+
+.rate-2{
+padding:15px 0;
+text-align:center;
+background:hsl(300, 24%, 96%);
+border-radius:4px;
+margin-bottom:10px;
+}
+
+.rate-2 h4{
+padding-top:10px;
+color:hsl(300, 43%, 22%);
+font-size:14px;
+}
+
+.rate-3{
+padding:15px 0;
+text-align:center;
+background:hsl(300, 24%, 96%);
+border-radius:4px;
+margin-bottom:40px;
+}
+
+.rate-3 h4{
+padding-top:10px;
+color:hsl(300, 43%, 22%);
+font-size:14px;
+}
+
+.testimonial{
+margin:0 15px;
+padding:40px 30px 30px 30px;
+background:hsl(300, 43%, 22%);
+color:hsl(300, 24%, 96%);
+border-radius:4px;
+margin-bottom:15px;
+font-family:league;
+}
+
+.testimonial h5{
+font-size:16px;
+padding-bottom:5px;
+}
+
+.testimonial small{
+font-weight:500;
+}
+
+.testimonial p{
+line-height:22px;
+font-size:15px;
+}
+
+.client{
+display:flex;
+align-items:center;
+background:hsl(300, 43%, 22%);
+color:#fff;
+padding-bottom:20px;
+}
+
+.client img{
+margin-right:20px;
+border-radius:50%;
+width:40px;
+}
+
+.client small{color:hsl(333, 80%, 67%);}
+
